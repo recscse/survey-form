@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+        <link rel="stylesheet" type="text/css" href="survey_form.css">
+    
+      <h1 id="title">Exame 100 Survey form</h1>
+      <p id="description">Thank you or taking the time to help us to improve the plateform </p>
+    
+    
+    <div id="body">
+        <form id="survey-form">
+            <label id="name-label" for="mane"><p>
+              Name:
+            </p>
+        </label>
+        <input id="name" type="text" placeholder="Enter Your Name" required>
+        <label id="email-label" for="email">
+            <p>Email:</p>
+           
+        </label>
+        <input id="email" type="text" placeholder="Enter Your Email" required>
+        <label id="number-label" for="number">
+            <p>Age:</p>
+        </label>
+        <input id="number" type="text"placeholder="Enter Your Age" min="12" max="50"required>
+
+        <p>Whic Topic Do You Want to Learn and Practice:</p>
+        <select name="Topics" id="dropdown">
+            <option value="default">Nothing</option>
+            <option value="Aptitude">Aptitude</option>
+            <option value="Current Affairs">Current Affairs</option>
+            <option value="English">English</option>
+            <option value="Science and Technology">Science and Technology</option>
+            <option value="History">History</option>
+            <option value="Reasoning">Rreasonong</option>
+
+        </select>
+        <p>Which Aptitude Topic Do You Want to Learn</p>
+
+        <input type="radio"name="Topic" value="1">Percantege</input>
+          <br>
+        <input type="radio"name="topic" value="2">Ratio</input>
+        <br>
+        <input type="radio" name="topic" value="3">Time and Distance</input><br>
+
+        .<p>which other topic do you want to learn</p>
+        <input type="checkbox" name="concept" value="1">Logical Reasoning</input><br>
+        <input type="checkbox" name="concept" value="2">Direction Sense</input ><br>
+
+        <textarea id="comment"rows="4" cols="40">Add Your Comment Here</textarea> <br>
+        <input id="submit" type="submit" value="Submit">
+
+
+        </form>
+    </div>
+    
+
+
+    
+</html>
